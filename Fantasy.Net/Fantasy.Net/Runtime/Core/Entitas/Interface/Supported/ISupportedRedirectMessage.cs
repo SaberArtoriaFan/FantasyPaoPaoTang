@@ -22,7 +22,7 @@ namespace Fantasy.Entitas.Interface
 
         static SupportedRedirectMessageChecker()
         {
-            IsSupported = typeof(ISupportedTransfer).IsAssignableFrom(typeof(T));
+            IsSupported = typeof(ISupportedRedirectMessage).IsAssignableFrom(typeof(T));
         }
     }
 }
